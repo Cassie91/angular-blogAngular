@@ -8,9 +8,9 @@
     >
   </div>
   <div class="bigCard-title">
-    <h1><a href="https://github.com/Cassie91/Dio---Pokedex-website">{{ cardTitle }}</a></h1>
+    <h1><a [routerLink]="['content', id]">{{ cardTitle }}</a></h1>
   </div>
   <div class="bigCard-description">
-    <p><a href="https://github.com/Cassie91/Dio---Pokedex-website">{{ cardDescription }}</a></p>
+    <p><a [routerLink]="['content', id]">{{ cardDescription }}</a></p>
   </div>
 </div>
